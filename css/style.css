@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    /* background-image: url("../images/space3.png"); */
+    font-family: "Space Grotesk", sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+
+.header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    padding-bottom: 71%;
+}
+
+.section1 {
+    background-color: darkgrey;
+    padding-bottom: 40%;
+}
