@@ -1,10 +1,28 @@
 body {
     background-color: black;
-    /* background-image: url("../images/space3.png"); */
+    background-image: url("../images/space3.png");
     font-family: "Space Grotesk", sans-serif;
     text-transform: capitalize;
     color: white;
 }
+
+.section {
+    padding: 7% 15%;
+}
+
+.light-section {
+    background-color: white;
+    color: black;
+}
+
+.section-header {
+    font-size: 3.5rem;
+}
+
+.section-content {
+    font-size: 1.75rem;
+}
+/* Header */
 
 .header {
     margin: auto;
@@ -12,16 +30,53 @@ body {
     text-align: center;
 }
 
-h1 {
+.header h1 {
     font-size: 8rem;
 }
 
-h3 {
+.header h3 {
     font-size: 3rem;
     padding-bottom: 71%;
 }
 
-.section1 {
-    background-color: darkgrey;
-    padding-bottom: 40%;
+/* About Me */
+
+#about-me {
+    text-align: center;
 }
+
+.about-me-header {
+    padding-bottom: 50px;
+}
+
+.about-me-content {
+
+}
+
+/* Experience */
+
+#experience {
+    text-align: center;
+}
+
+.experience-content h2 {
+    padding: 0 0 7%;
+}
+
+
+.card .card-body {
+    text-align: left;
+}
+
+.logo-img {
+    height: 200px;
+}
+
+
+/* Projects */
+
+
+/* Certifications */
+
+
+/* Contact Me */

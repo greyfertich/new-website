@@ -15,7 +15,7 @@
     <!-- Header -->
     <section id="header">
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand" href="">Grey Fertich</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
+                        <a class="nav-link" href="#about-me">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="#contact-me">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,20 +46,133 @@
 
     <!-- About Me -->
 
-    <!-- Rotating globe that zooms in and lands on pittsburgh -->
-
-    <section id="about-me">
-        <p>Section 1 Content Will Begin Here.</p>
+    <section id="about-me" class="section light-section">
+        <div class="about-me-content">
+            <h2 class="about-me-header section-header">About Me</h2>
+            <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut molestiae veniam ex possimus voluptates magni, ullam fuga blanditiis, dolorum, numquam necessitatibus mollitia similique harum.</p>
+        </div>
     </section>
 
     <!-- Experience -->
 
-    <section id="experience">
+    <section id="experience" class="section">
+        
+        <div class="experience-content">
+            <h2 class="section-header">Experience</h2>
+            <div class="card-deck">
+                <div class="card bg-dark">
+                  <img class="card-img-top logo-img" src="images/amazon-logo.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Amazon</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card bg-dark">
+                  <img class="card-img-top logo-img" src="images/jpmorgan-logo.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">JPMorgan Chase & Co.</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+                <div class="card bg-dark">
+                  <img class="card-img-top logo-img" src="images/sap-logo.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">SAP</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <!-- Projects -->
 
+    <section id="projects" class="section light-section">
+
+        <div class="projects-content">
+            <h2 class="section-header">Projects</h2>
+
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                  <div class="card bg-dark text-white">
+                    <img src="images/2048.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">2048</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card bg-dark text-white">
+                    <img src="images/alexnet.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">AlexNet</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card bg-dark text-white">
+                    <img src="images/captioning.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Image Captioning</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card bg-dark text-white">
+                    <img src="images/keypoint.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Facial Keypoint Detection</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                      <img src="images/robot.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Robot</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                      <img src="images/shakespeare.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Shakespeare Generator</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Certifications -->
+
+    <section id="certifications" class="section">
+
+        <div class="cetifications-content">
+            <h2 class="section-header">Certifications</h2>
+            <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni sit delectus dolorem natus omnis consequuntur nisi rem nam magnam dolore perspiciatis, est amet sed perferendis odio itaque beatae a quas fugiat! Libero facere magnam dolorum magni ducimus sunt sit?</p>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+
+    <section id="contact-me" class="section light-section">
+
+        <div class="contact-me-content">
+            <h2 class="section-header">Contact Me</h2>
+        </div>
+    </section>
 
 </body>
 </html>
