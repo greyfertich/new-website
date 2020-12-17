@@ -2,7 +2,6 @@ body {
     background-color: black;
     background-image: url("../images/space3.png");
     font-family: "Space Grotesk", sans-serif;
-    text-transform: capitalize;
     color: white;
 }
 
@@ -17,6 +16,7 @@ body {
 
 .section-header {
     font-size: 3.5rem;
+    text-transform: capitalize;
 }
 
 .section-content {
@@ -29,6 +29,7 @@ body {
     margin: auto;
     width: 50%;
     text-align: center;
+    padding-top: 100px;
 }
 
 .header h1 {
